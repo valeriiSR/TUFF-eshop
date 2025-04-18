@@ -1,0 +1,136 @@
+.product {
+  display: grid;
+  column-gap: 20px;
+  grid-template-columns: 1fr 90px 1fr;
+}
+
+.mainImageWrapper {
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.otherImageItem {
+  display: block;
+  margin: 0;
+  padding: 0;
+  border: 1px solid var(--black-light);
+  border-radius: 6px;
+  overflow: hidden;
+  width: 90px;
+  height: 90px;
+  cursor: pointer;
+  transition: all .3s;
+}
+
+.otherImageItem:hover {
+  border: 1px solid var(--white-light);
+}
+
+.otherImages ul {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: start;
+  gap: 8px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.productDetails {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  color: var(--white-light);
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.price {
+  color: var(--white-light);
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.optionsWrapper {
+  color: var(--grey);
+  font-size: 14px;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.optionsWrapperGroup {
+  display: flex;
+  margin-left: 10px;
+  gap: 5px;
+}
+
+.colorItem {
+  border: none;
+  background-color: transparent;
+  color: var(--white-light);
+  border-radius: 6px;
+  border: none;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  transition: all .3s;
+}
+
+.colorItem:hover {
+  color: var(--violet-light);
+}
+
+.sizeItem {
+  color: var(--white-light);
+  padding: 4px 8px;
+  margin: 0;
+  background-color: var(--grey-light);
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  transition: all .3s;
+}
+
+.sizeItem:hover {
+  background-color: var(--violet-light);
+}
+
+.desc {
+  font-size: 12px;
+  color: var(--white);
+  margin-bottom: 40px;
+}
+
+.buttonsGroup {
+  display: flex;
+  gap: 16px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  color: var(--white);
+  font-size: 10px;
+  margin-top: auto;
+}
+
+.footer p {
+  margin: 0;
+  padding: 0;
+}
+
+.findLink {
+  text-decoration: underline;
+  color: var(--white);
+}
+
+.findLink:hover {
+  color: var(--white-light);
+}

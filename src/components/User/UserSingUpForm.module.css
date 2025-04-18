@@ -1,0 +1,64 @@
+.wrapper {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  width: 500px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  min-height: 600px;
+  background-color: rgba(0,0,0,.6);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(12px);
+  border-radius: 0 0 0 6px;
+}
+
+.title {
+  align-self: center;
+}
+
+.haveAccaunt {
+  align-self: center;
+  color: var(--grey-light);
+  font-size: 13px;
+  cursor: pointer;
+  transition: all .3s;
+}
+
+.haveAccaunt:hover {
+  color: var(--white);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.userInput {
+  color: var(--white-light);
+  font-size: 13px;
+  padding: 12px 24px;
+  background-color: var(--black-light);
+  border: 1px solid var(--black-light);
+  border-radius: 6px;
+  outline: none;
+}
+
+.userInput::placeholder {
+  color: var(--white);
+}
+
+input.userInput:active, input.userInput:focus {
+  border: 1px solid var(--violet-light) !important;
+}
+
+.actionsGroup {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+}
+
