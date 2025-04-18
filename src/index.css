@@ -1,0 +1,43 @@
+:root {
+  font-family: Montserrat, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-size: 16px;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --black: #191919;
+  --black-light: #212123;
+  --violet: #6C3EB8;
+  --violet-light: #8B57C6;
+  --white: #B8B8B8;
+  --white-light: #F6F6F7;
+  --grey: #576067;
+  --grey-light: #616E74;
+  --orange: #d35400;
+  --orange-light: #e67e22;
+
+
+  background-color: var(--black-light);
+  color: var(--white-light);
+}
+
+img {
+  max-width: 100%;
+}
+
+*::-webkit-scrollbar {
+  width: 12px;               /* ширина scrollbar */
+}
+*::-webkit-scrollbar-track {
+  background: var(--black-light);        /* цвет дорожки */
+}
+*::-webkit-scrollbar-thumb {
+  background-color: var(--white);    /* цвет плашки */
+  border-radius: 20px;       /* закругления плашки */
+  border: 3px solid var(--black-light);  /* padding вокруг плашки */
+}
+

@@ -1,0 +1,39 @@
+.search {
+  background-color: var(--black);
+  padding: 24px;
+  width: 100%;
+  border-radius: 6px;
+}
+
+.title, .itemTitle {
+  margin: 0;
+}
+
+.itemWrapper {
+  display: flex;
+  background: var(--black-light);
+  border-radius: 6px;
+  padding: 24px;
+  gap: 1rem;
+  align-items: center;
+  margin-bottom: 1.4rem;
+  color: var(--white);
+  text-decoration: none;
+}
+
+.imagePreview {
+  align-self: start;
+  min-width: 100px;
+  height: 100px !important;
+  background-size: cover;
+}
+
+.desc {
+  font-size: 13px;
+}
+
+.price {
+  font-size: 18px;
+  font-weight: bold;
+  color: var(--violet-light);
+}

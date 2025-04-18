@@ -1,0 +1,36 @@
+.profile {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  background-color: var(--black);
+  padding: 24px;
+  border-radius: 6px;
+}
+
+.title {
+  align-self: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.userInput {
+  color: var(--white-light);
+  font-size: 13px;
+  padding: 12px 24px;
+  background-color: var(--black-light);
+  border: 1px solid var(--black-light);
+  border-radius: 6px;
+  outline: none;
+}
+
+.userInput::placeholder {
+  color: var(--white);
+}
+
+input.userInput:active, input.userInput:focus {
+  border: 1px solid var(--violet-light) !important;
+}

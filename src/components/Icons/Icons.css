@@ -1,0 +1,8 @@
+.social-icon {
+  cursor: pointer;
+  transition: all .3s;
+}
+
+.social-icon:hover svg path {
+  fill: var(--violet-light);
+}

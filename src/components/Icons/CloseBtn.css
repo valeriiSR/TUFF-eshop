@@ -1,0 +1,14 @@
+.close {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 14px;
+  right: 14px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.close:hover svg path {
+  stroke: var(--violet-light);
+}
